@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --color-stellar-blue: #0A0F2C;
+  --color-stellar-accent: #3E1BDB;
+  --color-stellar-light: #F0F4FF;
+  
+  --font-family-body: 'Inter', system-ui, sans-serif;
+  --font-family-heading: 'Outfit', system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-slate-950 text-slate-50 min-h-screen antialiased;
+    font-family: var(--font-family-body);
+    background-image: radial-gradient(circle at top, rgba(30, 58, 138, 0.15), transparent 40%),
+                      radial-gradient(circle at bottom right, rgba(99, 102, 241, 0.1), transparent 40%);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-heading);
+  }
+}
+
+@layer utilities {
+  .glass-card {
+    @apply bg-white/5 backdrop-blur-xl border border-white/10 shadow-xl rounded-2xl;
+  }
+}

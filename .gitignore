@@ -1,6 +1,23 @@
-# Rust's output directory
-target
+# Rust build artifacts
+target/
+Cargo.lock
 
-# Local settings
-.soroban
-.stellar
+# Soroban settings
+.stellar/
+.soroban/
+
+# Node.js / Frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# OS / Logs
+.DS_Store
+Thumbs.db
+*.log

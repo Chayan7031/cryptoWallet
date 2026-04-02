@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # DharmaChain Deployment Script
-# This script builds and deploys the temple_donation contract to the Stellar Testnet.
+# This script builds and deploys the crypto_wallet contract to the Stellar Testnet.
 
 set -e
 
@@ -11,9 +11,9 @@ stellar contract build
 echo "📦 Deploying to Testnet..."
 # Example deployment command (update with your actual identity/alias)
 # stellar contract deploy \
-#   --wasm target/wasm32v1-none/release/temple_donation.wasm \
+#   --wasm target/wasm32v1-none/release/crypto_wallet.wasm \
 #   --source-account alice \
 #   --network testnet \
-#   --alias temple_donation
+#   --alias crypto_wallet
 
 echo "✅ Deployment step completed (Placeholder)"

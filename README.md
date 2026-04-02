@@ -14,6 +14,12 @@ This repository is a comprehensive Stellar workspace, containing both a high-per
 *   **Real-time Ledger Data:** Powered by the official Stellar Horizon API for up-to-the-minute accuracy.
 *   **Premium Glassmorphism UI:** A beautiful, responsive frontend built with React, Vite, and Tailwind CSS, optimized for both desktop and mobile.
 
+## Deployment Details
+
+*   **Contract ID (Current):** `CA57PMBUACNDMUDXM46CFBOF5QL6JTDKCLFMGUDQE7NMMWJA2UI7IIG6`
+*   **Development Network:** Stellar Testnet
+
+
 ## Dashboard Preview
 
 ![Dashboard Screenshot](wallet-ui/src/assets/dashboard.png)
@@ -29,7 +35,7 @@ This repository is a comprehensive Stellar workspace, containing both a high-per
 The project is structured as a standard Stellar development workspace:
 
 1.  **Frontend (`/wallet-ui`)**: A React + Vite application leveraging `stellar-sdk` to interact with Horizon nodes.
-2.  **Smart Contract (`/contracts/temple_donation`)**: A Soroban smart contract environment (Rust) ready for on-chain logic expansion.
+2.  **Smart Contract (`/contracts/crypto_wallet`)**: A Soroban smart contract environment (Rust) ready for on-chain logic expansion.
 
 ---
 
@@ -68,10 +74,4 @@ The root directory contains a `Makefile` to manage the smart contract workspace.
 
 ---
 
-## Deployment Details
-
-*   **Contract ID (Current):** `CB6PTH3TE2CL35IWGGP2MFQSEMATW66I44BF5SWGR3O2GL4CPWDIAJO2`
-*   **Development Network:** Stellar Testnet
-
----
 Built with 🧡 for the **Stellar Ecosystem**.
